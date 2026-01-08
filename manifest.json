@@ -6,15 +6,16 @@
   "developer_url": "https://github.com/osszoi",
   "icon": "images/icon.png",
   "options": {
-    "query_debounce": 0.05,
-    "cache_refresh_minutes": {
-      "type": "number",
-      "name": "Cache Refresh Interval (minutes)",
-      "description": "How often to refresh the repository cache",
-      "default_value": 5
-    }
+    "query_debounce": 0.05
   },
   "preferences": [
+    {
+      "id": "gh_keyword",
+      "type": "keyword",
+      "name": "GitHub Repos",
+      "description": "Search GitHub repositories",
+      "default_value": "gh"
+    },
     {
       "id": "cache_refresh_minutes",
       "type": "input",
