@@ -48,8 +48,8 @@ gh auth login
 ### Examples
 
 - `gh` - Show all repositories
-- `gh classroom` - Find repositories matching "classroom"
-- `gh dawere/analytics` - Search by owner and name
+- `gh myrepo` - Find repositories matching "classroom"
+- `gh someorganization/somerepo` - Search by owner and name
 
 The extension searches in repository names, owners, and descriptions.
 
